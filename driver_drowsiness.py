@@ -158,7 +158,7 @@ while True:
                 # i.e. keypoints = [(i,(x,y))]
                 image_points[0] = np.array([x, y], dtype='double')
                 # write on frame in Green
-                cv2.circle(frame, (x, y), 1, (0, 255, 0), -1)3
+                cv2.circle(frame, (x, y), 1, (0, 255, 0), -1)
                 cv2.putText(frame, str(i + 1), (x - 10, y - 10),
                             cv2.FONT_HERSHEY_SIMPLEX, 0.35, (0, 255, 0), 1)
             elif i == 8:
